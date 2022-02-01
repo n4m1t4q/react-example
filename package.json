@@ -33,9 +33,9 @@
     "build-production": "dotenv -e .env.production react-scripts build",
     "test": "react-scripts test --watchAll=false --verbose --coverage",
     "eject": "react-scripts eject",
-    "create-page": "node src/create-page.js",
-    "create-service": "node src/create-service.js",
-    "create-store": "node src/create-store.js"
+    "create-page": "node src/_scripts/create-page.js",
+    "create-service": "node src/_scripts/create-service.js",
+    "create-store": "node src/_scripts/create-store.js"
   },
   "eslintConfig": {
     "extends": [
