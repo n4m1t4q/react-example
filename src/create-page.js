@@ -81,7 +81,7 @@ export const ${upperCamelCase}Container = memo(() => {
 `
 );
 
-/** cotainer.spec ファイル作成 */
+/** container.spec ファイル作成 */
 createFile(
   dir,
   `${filePrefix}.container.spec.tsx`,
